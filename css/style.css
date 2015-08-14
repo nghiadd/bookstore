@@ -1,0 +1,1100 @@
+/**
+* Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+* http://cssreset.com
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1.4;
+font-family: georgia, helvetica, serif, sans-serif;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+a {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}		
+	
+.clearfix {
+clear: both;
+}
+
+#container {
+width: 960px;
+margin: 0 auto;
+color: #333333;
+}
+
+/******************************** MAIN SETTINGS ****************************************/
+
+
+/*************************************************************/
+/*********   HEADER *************/
+/*************************************************************/
+
+#header {
+width: auto;
+height: 200px;
+}
+
+#header #logo {
+float: left;
+}
+
+#header #signin-register {
+float: right;
+margin: 0px 0px;
+font-size: 12px;
+font-weight: bold;
+
+}
+#header #signin-register a {
+color: #292929;
+}
+
+#header #signin-register a:hover {
+color: #932F13;
+}
+
+#header #signin-register ul {
+border: 1px solid #AAA9A9;
+padding: 5px 5px;
+border-top: none;
+}
+
+#header #signin-register ul li {
+display: inline;
+border-right: 1px solid #292929;
+}
+
+#header #signin-register ul li:last-child {
+border: none;
+}
+
+#header #signin-register ul li a {
+padding: 0 10px 0px 10px;
+}
+
+#header #signin-register p {
+border: 1px solid #AAA9A9;
+border-top: none;
+padding: 5px 15px;
+}
+
+#header #signin-register .login_name {
+color: red;
+}
+
+
+
+#header #navigation  ul{
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	border-bottom: 2px solid #660000;
+}
+
+#header #navigation a {
+    background: #bdf url(../image/tabs.gif);
+    color: #660000;
+	font-weight: bold;
+	text-transform: uppercase;
+    display: block;
+    float: left;
+    height: 40px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+#header #navigation a:hover {
+    background-color: #3af;
+    background-position: 0 -120px;
+}
+
+#header #navigation a:hover span {
+    background-position: 100% -120px;
+}
+
+#header #navigation li {
+    float: left;
+    margin: 0 1px 0 0;
+}
+
+#header #navigation li.current a {
+    background-color: #48f;
+    background-position: 0 -60px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#header #navigation li.current span {
+    background-position: 100% -60px;
+}
+
+#header #navigation span {
+    background: url(../image/tabs.gif) 100% 0;
+    display: block;
+    line-height: 40px;
+    padding-right: 10px;
+}
+
+#header #support-top {
+height: 40px;
+overflow: hidden;
+}
+
+#header #search-form {
+width: 700px;
+float: left;
+line-height: 40px;
+}
+
+#header #search-form p {
+float: left;
+margin: 0 5px 0 50px;
+font-size: 0.8em;
+font-weight: bold;
+font-family: helvetica;
+}
+
+#header #search-form  input#search-field {
+width: 300px;
+border: 1px solid #99cccc;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+#header #search-form input#button {
+background: #cccc99;
+-moz-border-radius: 5px;
+border-radius: 5px;
+cursor: pointer;
+font-weight: bold;
+font-size: 0.8em;
+padding: 0 10px;
+color: #666666;
+}
+
+#header #shopping {
+float: right;
+margin: 0px 0px 0px 0px;
+text-align: right;
+margin-top: 2px;
+font-size: 0.8em;
+font-weight: bold;
+}
+
+#header #shopping a {
+color: #191919;
+padding: 0px 0px 0px 5px;
+}
+
+#header #shopping a {}
+
+/*************************************************************/
+/*********   MAIN CONTENT *************/
+/*************************************************************/
+
+#mainContent {
+width: auto;
+overflow: hidden;
+margin-bottom: 20px;
+}
+
+#sidebar {
+width: 230px;
+float: left;
+overflow: hidden;
+}
+
+#primary {
+width: 710px;
+float: right;
+}
+
+#sidebar ul li {
+padding: 0px 0px 5px 20px;
+}
+
+#sidebar ul li a {
+font-size: 0.8em;
+font-family: Arial;
+color: #3399cc;
+}
+
+#sidebar ul li a:hover {
+text-decoration: none;
+color: #bf0000;
+}
+
+#sidebar h2{
+height: 30px;
+font-weight: bold;
+padding: 0px 0px 0px 20px;
+color: #006666;
+line-height: 30px;
+font-size: 0.8em;
+font-family: Tahoma, Georgia, Helvetica, serif;
+-moz-border-radius: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #82FF14 0%, #C1EFB8 150%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #82FF14 0%, #C1EFB8 150%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #82FF14 0%, #C1EFB8 150%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #82FF14), color-stop(1.5, #C1EFB8));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #82FF14 0%, #C1EFB8 150%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #82FF14 0%, #C1EFB8 150%);
+}
+
+#sidebar #category {
+
+}
+
+#sidebar #publisher {
+margin: 0px 0px 10px 0px;
+}
+
+#sidebar #hottest {
+border-top: 1px solid #191919;
+margin: 20px 0;
+}
+
+#primary #featured h1 {
+text-indent: -10px;
+font-size: 1.5em;
+font-weight: bold;
+font-family: Palatino Linotype;
+padding-bottom: 10px;
+}
+
+#primary #featured h1 a {
+color: #009999;
+}
+
+#primary .product-cate {
+overflow: hidden;
+padding: 0px 0px 20px 20px;
+}
+
+#primary #featured p.readmore {
+text-align: right;
+font-size: 0.9em;
+font-style: italic;
+}
+
+#primary #featured p.readmore a {
+color: #FFC34F;
+}
+
+#primary #featured p.readmore a:hover {
+color: #8F8F8F;
+}
+
+#primary .product {
+height: 220px;
+width: 140px;
+float: left;
+margin: 0px 36px 20px 0px;
+overflow: hidden;
+}
+
+#primary .product:last-child {
+margin-right: 0px;
+}
+
+#primary .product p:first-child {
+margin: 0 11px;
+}
+
+#primary .product p.book-name {
+margin: 2px 0px 0px 0px;
+width: 140px;
+height: 36px;
+font-size: 12px;
+font-weight: bold;
+font-family: Arial;
+letter-spacing: 1px;
+overflow: hidden;
+}
+
+#primary .product p.book-name a {
+color: #006666;
+}
+
+#primary .product p.book-name a:hover {
+text-decoration: none;
+color: #bf0000;
+}
+
+#primary .product p.price {
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+}
+
+#primary .product p.price span {
+color: #bf0000;
+padding-left: 10px;
+}
+
+
+
+/*************************************************************/
+/*********   FOOTER *************/
+/*************************************************************/
+
+#footer {
+width: auto;
+overflow: hidden;
+font-size: 11px;
+font-family: Arial;
+margin-bottom: 20px;
+}
+
+#footer a, span {
+color: #009999;
+}
+
+#footer #intro {
+width: 230px;
+float: left;
+}
+
+#footer #intro  p {
+margin-bottom: 10px;
+color: #999999;
+}
+
+#footer #intro a , span{
+font-weight: bold;
+}
+
+#footer #intro a:hover {
+text-decoration: none;
+color: #bf0000;
+}
+
+#footer #footer-info {
+width: 710px;
+float: right;
+}
+
+#footer #footer-info .info-support {
+width: 200px;
+float: left;
+padding: 0px 20px 0px 10px;
+}
+
+#footer #footer-info .info-support h2 {
+font-size: 12px;
+font-weight: bold;
+font-family: Arial;
+font-weight: bold;
+color: #009999;
+padding-bottom: 10px;
+}
+
+#footer #footer-info .info-support ul li {
+padding: 5px 0px;
+}
+
+#footer #footer-info .info-support ul li a:hover {
+text-decoration: none;
+color: #bf0000;
+}
+
+/******************************************/
+/******** PAGINATION ************/
+/******************************************/
+
+#pagination {
+height: 30px;
+width: auto;
+}
+
+#pagination  {
+margin-left: 250px;
+border: none;
+}
+
+#pagination a {
+padding: 0px 4px;
+font-size: 1em;
+font-weight: bold;
+color: #7F7F7F;
+}
+
+#pagination span {
+font-weight: bold;
+}
+
+/****************************************************/
+/**************** ABOUT PAGE ********************/
+/*******************************************************/
+
+#about-page {
+width: auto;
+font-size: 13px;
+font-family: Helvetica;
+padding: 0px 10px 50px 0px;
+text-align: justify;
+}
+
+#about-page h1 {
+font-size: 2em;
+color: #46AAC1;
+border-bottom: 1px solid #E6E6E6;
+padding-bottom: 10px;
+}
+
+#about-page h4 {
+text-align: center;
+color: #BC1E2C;
+font-size: 15px;
+font-weight: bold;
+padding: 30px 0px;
+}
+
+#about-page ul {
+list-style-type: disc;
+}
+
+#about-page ul li {
+margin: 0px 0px 5px 40px;
+}
+
+#about-page p {
+padding: 10px 0px;
+}
+
+#about-page strong {
+color: #444444;
+font-weight: bold;
+}
+
+#about-page span {
+color: #6CB949;
+}
+
+#about-page a {
+text-decoration: none;
+color: #46AAC1;
+font-weight: bold;
+}
+
+#about-page a:hover {
+color: #BF0000;
+text-decoration: none;
+}
+
+
+/*******************************************/
+/*********** CONTACT FORM ***************/
+/*******************************************/
+
+#contact-form {
+width: 600px;
+margin: 20px 0px 20px 20px;
+}
+
+#contact-form legend {
+font-size: 2em;
+font-weight: bold;
+font-family: Palatino Linotype;
+color: #999999;
+padding: 0px 0px 20px 0px;
+}
+
+#contact-form label {
+font-size: 0.9em;
+font-weight: bold;
+font-family: Arial;
+}
+
+#contact-form input#name, #contact-form input#email, #contact-form input#subject {
+margin: 5px 0px 10px 0px;
+border: 1px solid #8DF5FC;
+width: 250px;
+height: 20px;
+}
+
+#contact-form input#submit {
+margin: 5px 0px 10px 0px;
+width: 80px;
+height: 30px;
+border: 1px solid #8DF5FC;
+color: #191919;
+font-weight: bold;
+font-size: 15px;
+font-family: Arial;
+background: #669966;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+#contact-form span#name-contact-error, #contact-form span#email-contact-error, #contact-form span#subject-contact-error, #contact-form span#detail-contact-error {
+color: red;
+font-size: 0.9em;
+font-weight: bold;
+padding: 0px 5px;
+}
+
+#contact-form input#submit:hover {
+cursor: pointer;
+background: #009966;
+color: white;
+}
+
+/*********************************************/
+/******** SHOW PRODUCT ***********/
+/*********************************************/
+
+#show-product {
+width: auto;
+}
+
+#edit-delete-toolbar {
+width: auto;
+}
+
+#edit-delete-toolbar ul li {
+float: right;
+padding: 10px 20px;
+}
+
+#edit-delete-toolbar ul li a {
+font-size: 1.2em;
+font-family: Arial;
+}
+
+#edit-delete-toolbar ul li:first-child a {
+color: #0E4BEF;
+}
+
+#edit-delete-toolbar ul li:last-child a {
+color: #FF004C; 
+}
+
+#edit-delete-toolbar ul li a:hover {
+color: #191919;
+text-decoration: none;
+}
+
+#show-product-info {
+border-top: 1px solid #66cccc;
+padding-top: 20px;
+}
+
+#image-show-product {
+float: left;
+width: 176px;
+margin: 0px 20px 0px 5px;
+}
+
+#name-show-product {
+float: left;
+width: 320px;
+}
+
+#name-show-product h2 {
+font-size: 0.9em;
+font-weight: bold;
+font-family: Tahoma;
+color: #095D60;
+padding: 0px 0px 5px 0px;
+}
+
+#name-show-product p {
+font-size: 0.8em;
+font-weight: bold;
+font-family: Arial;
+}
+
+#name-show-product .span-left {
+display: block;
+width: 100px;
+float: left;
+color: #636262;
+}
+
+#name-show-product .span-right {
+float: left;
+display: block;
+width: 200px;
+font-weight: normal;
+color: #636262;
+}
+
+#name-show-product span {
+padding: 5px 0px;
+}
+
+#price-show-product {
+float: left;
+width: 160px;
+}
+
+#price-show-product p {
+font-weight: bold;
+font-size: 0.9em;
+font-family: Georgia;
+padding: 10px 0px;
+}
+
+#price-show-product p span {
+padding: 0px 0px 0px 0px;
+color: red;
+font-size: 1em;
+font-family: Tahoma;
+}
+
+#price-show-product span{
+padding: 0px 40px;
+font-weight: italic;
+font-size: 0.9em;
+color: #636262;
+}
+
+#price-show-product span.con-hang {
+display: block;
+background: url('../image/checked.png') bottom left no-repeat;
+height: 30px;
+line-height: 30px;
+font-style: italic;
+}
+
+#price-show-product span.het-hang {
+display: block;
+background: url('../image/unchecked.png') bottom left no-repeat;
+height: 30px;
+line-height: 30px;
+font-style: italic;
+}
+
+#price-show-product form {
+margin: 10px 0px;
+}
+
+#price-show-product input#buy-items {
+width: 120px;
+height: 40px;
+font-size: 1.2em;
+font-weight: bold;
+border: none;
+background: #639C17;
+color: white;
+border-radius: 5px;
+}
+
+#price-show-product #buy-items:hover {
+cursor: pointer;
+}
+
+#detail-show-product {
+margin: 50px 0px 50px 0px;
+padding: 0px 0px 0px 5px;
+}
+
+#detail-show-product h1 {
+color: #00cccc;
+font-size: 1.5em;
+font-weight: bold;
+text-indent: 0px;
+}
+
+#detail-show-product p {
+padding: 5px 0px 0px 0px;
+}
+
+#detail-show-product strong {
+font-weight: bold;
+text-transform: uppercase;
+}
+
+#detail-show-product ul{
+list-style: disc;
+padding-left: 20px;
+}
+
+#detail-show-product ul li {
+padding: 5px 0px 0px 0px;
+}
+
+/***********************************************/
+/********** ACCOUNT INFO ***********************/
+/***********************************************/
+
+#mainContent #account {
+width: auto;
+height: 500px;
+margin: 0px 0px 50px 0px;
+}
+
+#mainContent #account-info {
+float: left;
+width: 720px;
+}
+
+#mainContent #account-sidebar {
+width: 220px;
+float: left;
+padding: 0px 20px 0px 0px;
+}
+
+#mainContent #account-sidebar h2 {
+height: 30px;
+line-height: 30px;
+font-size: 0.9em;
+font-family: Arial;
+font-weight: bold;
+background: #385E99;
+color: white;
+text-indent: 10px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+#mainContent #account-sidebar ul li {
+padding: 5px 5px;
+border-bottom: 1px solid #385E99;
+}
+
+#mainContent #account-sidebar ul li a {
+color: #191919;
+font-weight: bold;
+font-size: 0.9em;
+font-size: Times New Roman;
+}
+
+#mainContent #account-sidebar ul li a:hover {
+text-decoration: none;
+color: red;
+}
+
+#mainContent #account-info h2 {
+width: auto;
+height: 30px;
+line-height: 30px;
+font-size: 0.9em;
+font-family: Arial;
+font-weight: bold;
+background: #385E99;
+color: white;
+text-indent: 10px;
+}
+
+#mainContent #account-info form {
+margin: 20px 50px;
+}
+
+#mainContent #account-info label {
+width: 100px;
+display: block;
+font-size: 0.9em;
+font-family: Vernada, Tahoma, Georgia, sans serif;
+font-weight: bold;
+margin: 10px 0px 10px 0px;
+float: left;
+}
+
+#mainContent #account-info p strong, #mainContent #account-info p input, #mainContent #account-info p select {
+display: block;
+float: left;
+margin: 10px 0px;
+color: #385E99;
+font-weight: bold;
+}
+
+#mainContent #account-info p input {
+padding: 0px 5px;
+height: 25px;
+width: 200px;
+}
+
+#mainContent #account-info p select {
+width: 100px;
+height: 25px;
+line-height: 25px;
+padding: 0px 0px 0px 5px;
+}
+
+#mainContent #account-info input#submit-account {
+margin: 30px 50px;
+width: 120px;
+height: 35px;
+line-height: 35px;
+background: #459E00;
+color: white;
+font-size: 0.9em;
+font-weight: bold;
+border: 1px solid white;
+border-radius: 5px;
+}
+
+#mainContent #account-info input#submit-account:hover {
+cursor: pointer;
+background: #70BF2F;
+}
+
+#mainContent #changepass-account {
+float: left;
+width: 720px;
+}
+
+#mainContent #changepass-account h2 {
+width: auto;
+height: 30px;
+line-height: 30px;
+font-size: 0.9em;
+font-family: Arial;
+font-weight: bold;
+background: #385E99;
+color: white;
+text-indent: 10px;
+}
+
+#mainContent #changepass-account form {
+margin: 20px 50px;
+}
+
+#mainContent #changepass-account p {
+margin: 20px 0px;
+}
+
+#mainContent #changepass-account p label {
+display: block;
+width: 150px;
+float: left;
+font-size: 0.9em;
+font-weight: bold;
+font-family: Vernada, Tahoma, Georgia, sans serif;
+}
+
+#mainContent #changepass-account p input {
+width: 200px;
+height: 25px;
+line-height: 25px;
+padding: 0px 5px;
+font-size: 0.9em;
+font-weight: bold;
+}
+
+#mainContent #changepass-account p input#submit-account {
+margin: 10px 50px;
+width: 120px;
+height: 35px;
+line-height: 35px;
+background: #459E00;
+color: white;
+font-size: 0.9em;
+font-weight: bold;
+border: 1px solid white;
+border-radius: 5px;
+}
+
+#mainContent #changepass-account p input#submit-account:hover {
+cursor: pointer;
+background: #70BF2F;
+}
+
+#mainContent #changepass-account span#password-change-error, #mainContent #changepass-account span#conpass-change-error {
+color: red;
+font-size: 0.9em;
+font-weight: bold;
+margin: 0px 0px 0px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	

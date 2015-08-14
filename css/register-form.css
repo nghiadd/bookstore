@@ -1,0 +1,83 @@
+/********* REGISTER FORM ************/
+#register-form {
+width: auto;
+height: 600px;
+color: #191919;
+font-weight: bold;
+font-size: 12px;
+font-family: Arial;
+padding-left: 40px;
+}
+
+#register-form h1 {
+color: #339933;
+font-size: 30px;
+margin: 10px 0px 20px 0px;
+text-indent: -20px;
+}
+
+#register-form input {
+margin: 5px 0px 10px 0px;
+border: 1px solid #8DF5FC;
+width: 250px;
+height: 20px;
+}
+
+#register-form input#birthday {
+width: 223px;
+}
+
+#register-form div#select-register-form {
+margin: 5px 0px 10px 0px;
+}
+
+#register-form div#select-register-form .birthday-form {
+margin: 0px 10px 0px 0px;
+}
+
+#register-form  #submit-register {
+width: 120px;
+height: 30px;
+border: 1px solid #8DF5FC;
+color: #191919;
+font-weight: bold;
+font-size: 15px;
+font-family: Arial;
+background: #669966;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+#register-form #submit-register:hover {
+cursor: pointer;
+background: #009966;
+}
+
+#register-form span#fullname-error, #register-form span#birthday-error, #register-form span#email-error, #register-form span#username-error, #register-form span#password-error, #register-form span#conpass-error {
+padding-left: 20px;
+font-style: italic;
+color: red;
+font-size: 1em;
+
+}
+
+#registered {
+width: auto;
+height: 300px;
+}
+
+#registered h1 {
+font-size: 20px;
+font-weight: bold;
+font-family: Arial;
+color: #67B021;
+}
+
+#registered p {
+font-weight: bold;
+}
+
+#registered a {
+font-style: italic;
+}
+

@@ -1,0 +1,788 @@
+/**
+* Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+* http://cssreset.com
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1.4;
+font-family: georgia, helvetica, serif, sans-serif;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+a {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}		
+	
+.clearfix {
+clear: both;
+}
+
+#container {
+width: 960px;
+margin: 0px auto;
+color: #333333;
+}
+
+/******************************** MAIN SETTINGS ****************************************/
+
+/*** HEADER  ****/
+
+#header {
+width: auto;
+height: 106px;
+border-bottom: 2px solid #006666;
+padding-bottom: 20px;
+}
+
+#header h1 {
+width: 400px;
+float: left;
+color: #660000;
+font-size: 3em;
+font-weight: bold;
+font-family: Arial;
+margin: 10px px 0px 0px;
+text-align: center;
+line-height: 106px;
+}
+
+#header #logo {
+width: 400px;
+float: left;
+}
+#header #logout {
+float: right;
+}
+
+#header #logout p {
+font-weight: bold;
+}
+
+#header #logout p span {
+color: #cc0000;
+font-style: italic;
+}
+
+#header #logout a {
+font-weight: bold;
+color: #191919;
+}
+
+#header #logout a:hover {
+color: #cc0000;
+}
+
+/**** MAIN CONTENT ****/
+
+#mainContent {
+width: auto;
+margin-bottom: 10px;
+padding-top: 10px;
+}
+
+#sidebar {
+width: 230px;
+height: 1000px;
+float: left;
+}
+
+#primary {
+width: 710px;
+float: right;
+}
+
+#sidebar h1 {
+height: 30px;
+line-height: 30px;
+font-size: 1em;
+font-weight: bold;
+font-family: Palatino Linotype;
+color: #cccccc;
+background: #006666;
+padding-left: 10px;
+-moz-border-radius: 5px 5px 0px 0px;
+-webkit-border-radius: 5px 5px 0px 0px;
+border-radius: 7px 7px 0px 0px;
+}
+
+#sidebar ul {
+line-height: 40px;
+font-family: Palatino Linotype;
+}
+
+#sidebar #product-menu, #user-menu {
+padding: 0px 0px 5px 0px;
+}
+
+#sidebar #product-menu ul, #user-menu ul {
+border: 1px solid #bccbd8;
+}
+
+#sidebar #product-menu ul li, #user-menu ul li {
+position: relative;
+border-bottom: 1px solid #bccbd8;
+}
+
+#sidebar #product-menu ul li a, #user-menu ul li a {
+padding-left: 10px;
+color: #00ffcc;
+}
+
+#sidebar #product-menu ul li a:hover, #user-menu ul li a:hover {
+color: #cc0000;
+text-decoration: none;
+}
+
+/**
+#sidebar #product-menu ul li ul {
+position: absolute;
+top: 0px;
+left: 230px;
+display: none;
+}
+
+#sidebar #product-menu ul li:hover ul {
+display: block;
+width: 100%;
+}
+**/
+
+#primary #featured {
+width: auto;
+margin-bottom: 10px;
+}
+
+#primary h1 {
+text-indent: -10px;
+font-size: 1.5em;
+font-weight: bold;
+font-family: Palatino Linotype;
+padding-bottom: 10px;
+}
+
+#primary .product {
+height: 220px;
+width: 140px;
+float: left;
+margin: 0px 36px 20px 0px;
+overflow: hidden;
+}
+
+#primary .product:last-child {
+margin-right: 0px;
+}
+
+#primary .product p:first-child {
+margin: 0 11px;
+}
+
+#primary .product p.book-name {
+margin: 2px 0px 0px 0px;
+width: 140px;
+height: 36px;
+font-size: 12px;
+font-weight: bold;
+font-family: Arial;
+letter-spacing: 1px;
+overflow: hidden;
+}
+
+#primary .product p.book-name a {
+color: #006666;
+}
+
+#primary .product p.book-name a:hover {
+text-decoration: none;
+color: #bf0000;
+}
+
+#primary .product p.price {
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+}
+
+#primary .product p.price span {
+color: #bf0000;
+padding-left: 10px;
+}
+
+/******* STYLE FOR ADMIN HOME PAGE ******/
+#primary #welcome-admin {
+width: auto;
+}
+
+#primary #welcome-admin h1 {
+font-size: 1.5em;
+font-weight: bold;
+color: #003399;
+text-indent: 50px;
+margin: 0px 0px 0px 20px;
+border-bottom: 1px solid #993300;
+}
+
+#primary #welcome-admin #user-management, #product-management {
+width: auto;
+padding: 10px 0px 10px 10px;
+position: relative;
+}
+
+#primary #welcome-admin .manager {
+float: left;
+margin: 60px 10px 60px 0px;
+}
+
+#primary #welcome-admin .arrow {
+float: left;
+margin: 60px 10px 60px 0px;
+}
+
+#primary #welcome-admin #user-management .list-icon {
+position: absolute;
+top: 40px;
+right: 40px;
+}
+
+#primary #welcome-admin #user-management .add-icon {
+position: absolute;
+top: 166px;
+right: 88px;
+}
+
+#primary #welcome-admin #product-management .list-icon {
+position: absolute;
+top: 40px;
+right: 67px;
+}
+
+#primary #welcome-admin #product-management .add-icon {
+position: absolute;
+top: 166px;
+right: 115px;
+}
+
+
+#primary #welcome-admin ul li {
+float: left;
+height: 64px;
+line-height: 64px;
+padding: 0px 20px 0px 0px;
+}
+
+#primary #welcome-admin a {
+color: #006666;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+#primary #welcome-admin a:hover {
+color: #993300;
+}
+
+/**** FOOTER ****/
+
+#footer {
+height: 160px;
+margin-top: 20px;
+font-size: 0.9em;
+text-align: center;
+}
+
+#footer a, span {
+color: #009999;
+}
+
+#footer  p {
+margin-bottom: 10px;
+color: #999999;
+}
+
+/***********************************/
+/****** ADD - EDIT PRODUCT ********/
+/**********************************/
+
+#primary #add-edit-product {
+width: auto;
+margin: 10px 0px 0px 0px;
+}
+
+#primary #add-edit-product ul li {
+font-weight: bold;
+font-size: 1em;
+font-family: Palatino Linotype;
+padding: 5px 0px;
+}
+
+#primary #add-edit-product input {
+width: 300px;
+height: 20px;
+}
+
+#primary #add-edit-product .add-edit-button {
+width: 80px;
+height: 30px;
+}
+
+#primary #add-edit-product .add-edit-button:hover {
+cursor: pointer;
+}
+
+/***********************************/
+/****** ADD - EDIT USER ********/
+/**********************************/
+
+#primary #add-edit-user {
+width: auto;
+height: 600px;
+color: #191919;
+font-weight: bold;
+font-size: 12px;
+font-family: Arial;
+padding-left: 40px;
+}
+
+#primary #add-edit-user input {
+margin: 5px 0px 10px 0px;
+border: 1px solid #8DF5FC;
+width: 250px;
+height: 20px;
+}
+
+#primary #add-edit-user .select-group {
+margin: 5px 0px 10px 0px;
+width: 150px;
+padding-left: 5px;
+}
+
+#primary #add-edit-user .select-gender {
+margin: 5px 0px 10px 0px;
+width: 60px;
+padding-left: 5px;
+}
+
+#primary #add-edit-user .add-edit-button {
+width: 80px;
+height: 30px;
+font-weight: bold;
+}
+
+#primary #add-edit-user .add-edit-button:hover {
+cursor: pointer;
+}
+
+/******************************************/
+/******** PAGINATION ************/
+/******************************************/
+
+#pagination {
+height: 30px;
+width: auto;
+}
+
+#pagination  {
+margin-left: 250px;
+border: none;
+}
+
+#pagination a {
+padding: 0px 4px;
+font-size: 1em;
+font-weight: bold;
+color: #7F7F7F;
+}
+
+#pagination span {
+font-weight: bold;
+}
+
+
+
+/*********************************************/
+/******** SHOW PRODUCT ***********/
+/*********************************************/
+
+#show-product {
+width: auto;
+}
+
+#edit-delete-toolbar {
+width: auto;
+}
+
+#edit-delete-toolbar ul li {
+float: right;
+padding: 10px 20px;
+}
+
+#edit-delete-toolbar ul li a {
+font-size: 1.2em;
+font-family: Arial;
+}
+
+#edit-delete-toolbar ul li:first-child a {
+color: #0E4BEF;
+}
+
+#edit-delete-toolbar ul li:last-child a {
+color: #FF004C; 
+}
+
+#edit-delete-toolbar ul li a:hover {
+color: #191919;
+text-decoration: none;
+}
+
+#show-product-info {
+border-top: 1px solid #66cccc;
+padding-top: 20px;
+}
+
+#image-show-product {
+float: left;
+width: 176px;
+margin: 0px 20px 0px 5px;
+}
+
+#name-show-product {
+float: left;
+width: 320px;
+}
+
+#name-show-product h2 {
+font-size: 0.9em;
+font-weight: bold;
+font-family: Tahoma;
+color: #095D60;
+padding: 0px 0px 5px 0px;
+}
+
+#name-show-product p {
+font-size: 0.8em;
+font-weight: bold;
+font-family: Arial;
+}
+
+#name-show-product .span-left {
+display: block;
+width: 100px;
+float: left;
+color: #636262;
+}
+
+#name-show-product .span-right {
+float: left;
+display: block;
+width: 200px;
+font-weight: normal;
+color: #636262;
+}
+
+#name-show-product span {
+padding: 5px 0px;
+}
+
+#price-show-product {
+float: left;
+width: 160px;
+}
+
+#price-show-product p {
+font-weight: bold;
+font-size: 0.9em;
+font-family: Georgia;
+padding: 10px 0px;
+}
+
+#price-show-product p span {
+padding: 0px 0px 0px 0px;
+color: red;
+font-size: 1em;
+font-family: Tahoma;
+}
+
+#price-show-product span{
+padding: 0px 40px;
+font-weight: italic;
+font-size: 0.9em;
+color: #636262;
+}
+
+#price-show-product span.con-hang {
+display: block;
+background: url('../image/checked.png') bottom left no-repeat;
+height: 30px;
+line-height: 30px;
+font-style: italic;
+}
+
+#price-show-product span.het-hang {
+display: block;
+background: url('../image/unchecked.png') bottom left no-repeat;
+height: 30px;
+line-height: 30px;
+font-style: italic;
+}
+
+#detail-show-product {
+margin: 50px 0px 0px 0px;
+padding: 0px 0px 0px 5px;
+}
+
+#detail-show-product h1 {
+color: #00cccc;
+font-size: 1.5em;
+font-weight: bold;
+text-indent: 0px;
+}
+
+#detail-show-product p {
+padding: 5px 0px 0px 0px;
+}
+
+#detail-show-product strong {
+font-weight: bold;
+text-transform: uppercase;
+}
+
+#detail-show-product ul{
+list-style: disc;
+padding-left: 20px;
+}
+
+#detail-show-product ul li {
+padding: 5px 0px 0px 0px;
+}
+
+/*****************************/
+/******** USER LIST **********/
+/*****************************/
+
+#primary #user-list {
+width: auto;
+}
+
+#primary #user-list h1 {
+border-bottom: 2px solid #003366;
+}
+
+#primary #user-list .user {
+width: auto;
+padding: 15px 0px 15px 0px;
+border-bottom: 1px solid #33ccff;
+}
+
+#primary #user-list .user .user-info {
+float: left;
+width: 600px;
+border-right: 1px solid #33ccff;
+}
+
+#primary #user-list .user .user-info .left-user {
+float: left;
+width: 200px;
+font-weight: bold;
+font-size: 0.9em;
+color: #333333;
+}
+
+#primary #user-list .user .user-info .right-user {
+float: left;
+width: 400px;
+font-style: italic;
+font-size: 1em;
+font-family: Palatino Linotype;
+color: #666666;
+}
+
+#primary #user-list .user .edit-delete {
+float: left;
+padding: 10px 30px;
+}
+
+#primary #user-list .user .edit-delete ul li {
+padding: 10px 0px;
+}
+
+#primary #user-list .user .edit-delete ul li:first-child a {
+font-size: 16px;
+font-weight: bold;
+font-family: Arial;
+color: #003399;
+}
+
+#primary #user-list .user .edit-delete ul li:last-child a {
+font-size: 16px;
+font-weight: bold;
+font-family: Arial;
+color: #cc0033;
+}
+
+#primary #user-list .user .edit-delete ul li a:hover {
+color: #191919;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	

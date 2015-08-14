@@ -1,0 +1,49 @@
+/***** LOGIN FORM *****/
+#login-form {
+width: auto;
+height: 300px;
+color: #191919;
+font-weight: bold;
+font-size: 12px;
+font-family: Arial;
+padding-left: 40px;
+}
+
+#login-form h1 {
+color: #339933;
+font-size: 30px;
+margin: 10px 0px 20px 0px;
+text-indent: -20px;
+}
+
+#login-form input {
+margin: 5px 0px 10px 0px;
+border: 1px solid #8DF5FC;
+width: 250px;
+height: 20px;
+}
+
+#login-form #submit-register {
+width: 120px;
+height: 30px;
+border: 1px solid #8DF5FC;
+color: #191919;
+font-weight: bold;
+font-size: 15px;
+font-family: Arial;
+background: #669966;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+#login-form #submit-register:hover {
+cursor: pointer;
+background: #009966;
+}
+
+#login-form span#username-login-error, #login-form span#password-login-error {
+padding-left: 20px;
+font-style: italic;
+color: red;
+font-size: 1em;
+}
